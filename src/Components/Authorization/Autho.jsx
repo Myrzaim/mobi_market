@@ -5,8 +5,10 @@ import back from '../Image/back.png';
 const Autho = () => {
     return (<>
         <div className='d-flex'>
-        <div style={{ backgroundImage: `url(${back})` }}>
-              
+        <div className='img_div'   style={{
+              background: `url(${back})`,
+            }}>
+              <img src={back} alt="back"/>
             </div>
             <div></div>
         </div>
