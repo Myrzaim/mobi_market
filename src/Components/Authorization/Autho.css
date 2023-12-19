@@ -1,11 +1,17 @@
 .img_div
 {
-    width: 200px !important;
- height: 200px !important;
-   
+ width: 630px;
+ height: 600px;
+
+
+}
+.d-flex-1 {
+    display: flex;
 }
 .img_mobi{
-    width: 100%;
-    height: 600px
- 
+  margin: 40% 40%;
+  width: 200px;
+  height: 200px;
+
+
 }
